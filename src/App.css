@@ -1,0 +1,97 @@
+:root {
+  --background: #084851;
+  --color: #062226;
+  --text: #FFFFFF;
+  --textSecundary: #7E7E7E;
+}
+
+* {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: roboto;
+  background-color: var(--background);
+  color: var(--text);
+  font-size: 24px;
+}
+
+.App {
+  padding: 0;
+}
+
+.App-location {
+  padding: 5% 20%;
+}
+.search-id{
+  padding: 10px;
+}
+
+.image-app {
+  width: 100%;
+  height: 372px;
+  padding: 0;
+}
+
+.location-information {
+  display: flex;
+  background-color: var(--color);
+}
+
+.location-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  background-color: var(--color);
+}
+
+.location-list li {
+  margin: 15px;
+  background-color: var(--color);
+}
+
+.location-list b {
+  background-color: var(--color);
+}
+
+.location-list span {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  background-color: var(--color);
+}
+
+.resident-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.resident-card {
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 10px;
+  height: 100%;
+  background-color: var(--color);
+}
+
+.resident-image {
+  width: 100%;
+}
+
+.resident-card-info {
+  list-style: none;
+  background: var(--color);
+}
+
+.resident-card-info span {
+  font-size: 18px;
+  display: flex;
+  color: var(--textSecundary);
+  background-color: var(--color);
+}
+
+.resident-card-info b {
+  display: flex;
+  background-color: var(--color);
+}
